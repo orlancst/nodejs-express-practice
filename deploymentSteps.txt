@@ -1,0 +1,16 @@
+----SUBIR A HEROKU----
+
+1. Instalar Heroku en el equipo
+2. >heroku create
+2.x visitar la documentacion de heroku para ver el paso a paso de Nodejs
+3. en el package.json agregar al final el atributo engines y el valor es la version de node.
+3.x archivo Procfile
+4. >heroku local web
+5. >git add .
+6. >git commit -m "mensaje para hacer deploy"
+7. >git checkout main
+8. >git merge [nombre-de-la-rama]
+9. >git push heroku main
+10. si todo sale bien, te debe dar el url donde se aloja el servidor de backend.
+
+Tambien se puede hacer deployement a Vercel

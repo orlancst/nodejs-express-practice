@@ -1,0 +1,7 @@
+Recomendaciones:
+-CORS
+-Https
+-Procesos de build
+-Remover todos los logs
+-Seguridad (Helmet)
+-Testing
